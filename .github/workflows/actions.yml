@@ -11,6 +11,8 @@ jobs:
         run: | 
            echo "hola github"
       - name: Dime la hora
-        run: | 
-           echo "$date"     
+        run: date
+           
+      - name: Lista files
+        run: ls -lta
     
