@@ -1,9 +1,6 @@
-name: Hola Github
-
-on:
-  push:
-    branches: 
-      - main
+name: learn-github-actions
+run-name: ${{ github-actor }} is learn github actions
+on: [push]
 jobs:
   hello-world:
     runs-on: alpine
