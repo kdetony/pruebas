@@ -12,5 +12,5 @@ jobs:
            echo "hola github"
       - name: Dime la hora
         run: | 
-           echo "date"     
+           echo "$date"     
     
