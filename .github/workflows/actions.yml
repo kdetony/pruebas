@@ -10,4 +10,7 @@ jobs:
       - name: Echo de mensaje
         run: | 
            echo "hola github"
+      - name: Dime la hora
+        run: | 
+           echo "date"     
     
