@@ -1,10 +1,13 @@
-name: learn-github-actions
-run-name: ${{ github-actor }} is learn github actions
-on: [push]
+name: Hola Githubactions
+on:
+  push:
+    branches: 
+      - main
 jobs:
-  hello-world:
+   hello-world:
     runs-on: alpine
     steps:
-    - name: Echo the message
-      run: | 
-       echo "Hola Github"
+      - name: Echo de mensaje
+        run: | 
+           echo "hola github"
+    
